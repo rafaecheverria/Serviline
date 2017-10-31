@@ -10,6 +10,7 @@
     {!! Html::style('css/style.css') !!}
     {!! Html::style('css/toastr.css') !!}
     {!! Html::style('css/font-awesome.min.css') !!}
+    {!! Html::style('css/cards.css') !!}
 </head>
 <body>
     <div class="wrapper">

@@ -41,7 +41,7 @@ class ProfileController extends ApiController
                 "path" => $path,
                 "file_name" => $file_name,
                 "avatar" => $avatar,
-                "message" => "La imagen fue subida con Exito! 2"
+                "message" => "La imagen fue subida con Exito!"
             ]);
         }
     }

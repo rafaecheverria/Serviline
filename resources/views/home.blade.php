@@ -28,14 +28,25 @@
     </ul>
   </div>
 </div>
+
+
 <div class="row">
-  <div class="container">
+  <!--<div class="container">
     <div class="section">
-      <div class="card">
-            <div class="card-content">
-                {!! Form::open(['route' => 'contacto.store','method' => 'POST','id' => 'form_contacto']) !!}
+
+
+ <div class="row">
+<div class="col s12 m7">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="/img/Search-32.png">
+      </div>
+      <div class="card-stacked">
+       <div class="card-content">
+          {!! Form::open(['route' => 'contacto.store','method' => 'POST','id' => 'form_contacto']) !!}
             <div class="row">
-              <div class="input-field col s12 m4">
+              <div class="input-field col s12 m3">
                 {!! Form::select('size', ['L' => 'Large', 'S' => 'Small']); !!}
               </div>
               <div class="input-field col s12 m5">
@@ -43,15 +54,69 @@
                 {!! Form::label('email', 'Correo Electrónico'); !!}
               </div>
           {!! Form::close() !!} 
-           <div class="input-field col s12 m2">
+            <div class="input-field col s12 m2">
               {!! link_to('#', 'Buscar',['id' => 'guardar' , 'class' => 'indigo darken-4 waves-effect waves-light btn']); !!}
-           </div>
+            </div>
             </div>
         </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+  </div>
 </div>
+-->
+<div class="col s12 m6">
+<div class="blog-card">
+  <div class="photo photo1"></div>
+  <ul class="details">
+    <li class="author"><a href="#">John Doe</a></li>
+    <li class="date">Aug. 24, 2015</li>
+    <li class="tags">
+      <ul>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="description">
+    <h1>Learning to Code</h1>
+    <h2>Opening a door to the future</h2>
+    <p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium.</p>
+    <a class="indigo-text darken-4" href="#">Read More</a>
+  </div>
+</div>
+</div>
+
+<div class="col s12 m6">
+<div class="blog-card alt">
+  <div class="photo photo2"></div>
+  <ul class="details">
+    <li class="author"><a href="#">Jane Doe</a></li>
+    <li class="date">July. 15, 2015</li>
+    <li class="tags">
+      <ul>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+    </li>
+  </ul>
+  <div class="description">
+    <h1>Mastering the Language</h1>
+    <h2>Java is not the same as JavaScript</h2>
+    <p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium.</p>
+    <a class="indigo-text darken-4" href="#">Read More</a>
+  </div>
+</div>
+
+</div>
+</div>
+
 <div class="row">
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
